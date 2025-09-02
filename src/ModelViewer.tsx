@@ -155,7 +155,7 @@ export const ModelViewer = ({
         />
       </Canvas>
 
-      {!showSettingsPanel && !showSettingsEnabled && (
+      {!showSettingsPanel && showSettingsEnabled && (
         <div
           className="model-viewer-settings-panel-container"
           onClick={() => setShowSettingsPanel(true)}
