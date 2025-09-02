@@ -1,5 +1,5 @@
 {
-  "name": "ogv-viewer-react",
+  "name": "ogv-viewer-package",
   "version": "1.0.0",
   "description": "React 3D OBJ model viewer built with Three.js and React Three Fiber",
   "main": "dist/index.js",
