@@ -1,0 +1,43 @@
+{
+  "name": "ogv-viewer-react",
+  "version": "1.0.0",
+  "description": "React 3D OBJ model viewer built with Three.js and React Three Fiber",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "style": "dist/model-viewer.css",
+  "files": [
+    "dist",
+    "dist/model-viewer.css"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "3d",
+    "obj",
+    "viewer",
+    "threejs",
+    "react",
+    "fiber"
+  ],
+  "dependencies": {
+    "three": "^0.179.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@react-three/fiber": "^8.0.0",
+    "@react-three/drei": "^9.88.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/three": "^0.179.0"
+  }
+}

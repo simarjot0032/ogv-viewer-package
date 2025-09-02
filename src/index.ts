@@ -1,0 +1,1 @@
+export { ModelViewer, type ModelViewerProps } from './ModelViewer';

@@ -1,0 +1,29 @@
+# Source files (not needed in package)
+src/
+tsconfig.json
+tsup.config.ts
+
+# Development files
+.git/
+.gitignore
+README.md
+
+# Build artifacts (will be generated from dist/)
+dist/
+
+# Dependencies
+node_modules/
+
+# Package files
+*.tgz
+
+# IDE and editor files
+.vscode/
+.idea/
+
+
+# OS generated files
+.DS_Store
+.DS_Store 
+
+npm-debug.log*
