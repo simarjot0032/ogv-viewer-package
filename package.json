@@ -25,9 +25,9 @@
     "fiber"
   ],
   "dependencies": {
-    "three": "0.179.0",
-    "@react-three/fiber": "^9.0.0",
-    "@react-three/drei": "^10.0.0"
+    "three": "^0.179.1",
+    "@react-three/fiber": "^9.4.0",
+    "@react-three/drei": "^10.7.0"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -39,11 +39,5 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/three": "^0.179.0"
-  },
-  "resolutions": {
-    "three": "0.179.0"
-  },
-  "overrides": {
-    "three": "0.179.0"
   }
 }
