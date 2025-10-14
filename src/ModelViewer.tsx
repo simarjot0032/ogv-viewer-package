@@ -3,7 +3,7 @@ import React, { useState, Suspense } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { OrbitControls, Grid } from "@react-three/drei";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
-import { Camera } from "three";
+import { Camera, MOUSE } from "three";
 import { cameraPresets, zoomPresets, scalePresets } from "./types/viewer";
 import { CrossIcon } from "./icons/Cross.icon";
 import { SettingIcon } from "./icons/Setting.icon";
@@ -152,6 +152,11 @@ export const ModelViewer = ({
           minPolarAngle={0}
           maxAzimuthAngle={Infinity}
           minAzimuthAngle={-Infinity}
+          mouseButtons={{
+            LEFT: MOUSE.ROTATE,
+            MIDDLE: MOUSE.DOLLY,
+            RIGHT: MOUSE.PAN
+          }}
         />
       </Canvas>
 
